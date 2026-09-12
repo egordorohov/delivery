@@ -8,6 +8,7 @@ no framework, no build step, open `index.html` and it runs.
 - `index.html` — catalog with filters and cart
 - `deliveries.html` — delivery options
 - `checkout.html` — order form
+- `order.html` — order confirmation
 
 ## Structure
 
@@ -16,6 +17,8 @@ css/     styles
 js/      cart, catalog and checkout logic
 img/     product images
 fonts/   web fonts
+
+products.json  catalog data the pages read from
 ```
 
 Built as a front-end exercise: the whole state lives in the browser, so the flow works
